@@ -1,0 +1,43 @@
+/* Tabla.module.css */
+
+.tabla {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .tabla h2 {
+    color: #333;
+  }
+  
+  .tabla input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .tabla button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+  }

@@ -1,0 +1,33 @@
+/* Formulario.module.css */
+
+.formContainer {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .formSelect {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .formButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 170px;
+  }
