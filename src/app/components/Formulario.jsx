@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import { usarContextoEmpleados } from '../context/ContextoEmpleados';
+import { useContextoEmpleados } from '../context/ContextoEmpleados';
 import styles from '../Formulario.module.css';
 
 const Formulario = () => {
@@ -12,7 +12,7 @@ const Formulario = () => {
   const numeroAlAzar = getRandomInt(1, 10000);
   let id = numeroAlAzar;
 
-  const { agregarEmpleado } = usarContextoEmpleados();
+  const { agregarEmpleado } = useContextoEmpleados();
   const initialFormData = {
     id: id,
     fullName: '',

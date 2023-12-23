@@ -1,12 +1,12 @@
 // components/Tabla.jsx
 "use client"
 import React, { useState, useEffect } from 'react';
-import { usarContextoEmpleados } from '../context/ContextoEmpleados';
+import { useContextoEmpleados } from '../context/ContextoEmpleados';
 import styles from '../Tabla.module.css';
 
 
 const Tabla = () => {
-  const { empleados } = usarContextoEmpleados();
+  const { empleados } = useContextoEmpleados();
   const [currentPage, setCurrentPage] = useState(0);
   const [pageSize, setPageSize] = useState(10);
   const [filteredEmployees, setFilteredEmployees] = useState(empleados || []);

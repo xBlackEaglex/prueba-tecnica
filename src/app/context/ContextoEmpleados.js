@@ -1,5 +1,4 @@
 // context/ContextoEmpleados.js
-"use client"
 
 import { createContext, useContext, useState } from 'react';
 
@@ -34,6 +33,6 @@ export const ProveedorEmpleados = ({ children }) => {
   );
 };
 
-export const usarContextoEmpleados = () => {
+export const useContextoEmpleados = () => {
   return useContext(ContextoEmpleados);
 };
